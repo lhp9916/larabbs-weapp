@@ -22,7 +22,7 @@
     <view class="page__bd" >
       <view class="weui-cells weui-cells_after-title">
         <!-- 已登录 -->
-        <navigator class="weui-cell" wx:if="{{ user }}" url>
+        <navigator class="weui-cell" wx:if="{{ user }}" url="/pages/users/edit">
           <view class="weui-cell__hd avatar-wrap">
             <image class="avatar" src="{{ user.avatar }}"/>
           </view>
